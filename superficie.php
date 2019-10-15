@@ -1,6 +1,6 @@
 <?php
-    function triangulo($ladoUm,$ladoDois,$ladoTres){
-        $superficie=$ladoUm+$ladoDois+$ladoTres;
+    function triangulo($base,$altura){
+        $superficie=($base*$altura)/2;
         return $superficie;
     }
-    echo "A superície do triângulo é de: ".triangulo(8,8,8)." metros.";
+    echo "A área de superície do triângulo é de: ".triangulo(3,8)." metros.";
