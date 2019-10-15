@@ -1,6 +1,8 @@
 <?php
     $numeroMagico=22;
     function maior($num1,$num2,$num3=""){
+        global $funcoesExecutadas;
+        $funcoesExecutadas++;
         global $numeroMagico;
         if($num3=""){
             if ($num1>$num2 && $num1>$num3){
@@ -34,6 +36,8 @@
 <?php
 
     function tabela($inicio,$fim=""){
+    global $funcoesExecutadas;
+    $funcoesExecutadas++;
     global $numeroMagico;
     $numeros=[];
     if($fim=""){
