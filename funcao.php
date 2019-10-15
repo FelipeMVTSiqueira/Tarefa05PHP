@@ -30,3 +30,5 @@
 
     echo "<br>"."<br>";
 ?>
+
+<?php $numeroMagico=22; ?>
