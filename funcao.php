@@ -11,4 +11,22 @@
         }
     }
     echo maior(2,4,9);
+
+
+    echo "<br>"."<br>";
+?>
+
+<?php
+    function tabela($inicio,$fim){
+    $array=[];
+    $i=0;
+    foreach (range($inicio, $fim) as $numeros) {
+        array_push($array,$numeros);
+        echo $array[$i]."<br>";
+        $i++;
+    }
+}
+    echo tabela(3,19);
+
+    echo "<br>"."<br>";
 ?>
