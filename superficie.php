@@ -12,3 +12,13 @@
         return $superficie;
     }
     echo "A área de superície do retângulo é de: ".retangulo(3,8)." metros.";
+
+    echo "<br>"."<br>";
+
+    function quadrado($lado){
+        $superficie=$lado*$lado;
+        return $superficie;
+    }
+    echo "A área de superície do quadrado é de: ".quadrado(8)." metros.";
+
+    echo "<br>"."<br>";
