@@ -1,4 +1,4 @@
 <?php 
-    require(boletos.php);
-    //O que acontece? Dá mais um monte de mensagem de erro.
+    include"boletos.php";
+    //Agora ele inclui o arquivo boletos.php
 ?>
