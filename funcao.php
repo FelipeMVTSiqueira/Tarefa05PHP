@@ -32,16 +32,27 @@
 ?>
 
 <?php
-    function tabela($inicio,$fim){
-    $array=[];
-    $i=0;
-    foreach (range($inicio, $fim) as $numeros) {
-        array_push($array,$numeros);
-        echo $array[$i]."<br>";
-        $i++;
+
+    function tabela($inicio,$fim=""){
+    global $numeroMagico;
+    $numeros=[];
+    if($fim=""){
+    for($i=$inicio;$i<=$fim;$i++){
+        $numero[]=$i;
+        return $numeros."<br>";
+        } 
+        }  else {
+            $fim=$numeroMagico;
+            for ($i=$inicio;$i<=$fim; $i++) { 
+                $numeros[]=$i;
+            }
+            return $numeros;
+        }
     }
-}
-    echo tabela(3,19);
+        $array=tabela(13);
+        foreach($array as $seq){
+            echo $seq."<br>";
+        }
 
     echo "<br>"."<br>";
 ?>
