@@ -1,4 +1,4 @@
 <?php 
-    include(boletos.php);
-    //O que acontece? Dá um monte de mensagem de erro.
+    require(boletos.php);
+    //O que acontece? Dá mais um monte de mensagem de erro.
 ?>
