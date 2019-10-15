@@ -1,4 +1,6 @@
 <?php 
-    include"boletos.php";
-    //Agora ele inclui o arquivo boletos.php
+    require"boletos.php";
+    require"boletos.php";
+    require"boletos.php";
+    //Agora ele inclui 3 vezes o arquivo boletos.php
 ?>
